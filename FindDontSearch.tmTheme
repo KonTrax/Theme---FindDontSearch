@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--
+</key>\s+<string>
+
+</key>\K\s+(?=<string>|<dict>)
+
+</key>\K\v\s+(?=<string>|<dict>)
+-->
+<plist version="0.1"><dict>
+<!-- INNER START -->
+
+
+
+<!-- Info -->
+<key>name</key>  <string>FindDontSearch</string>
+<key>author</key><string>KonTrax</string>
+
+
+<!-- Settings -->
+<key>settings</key><array>
+<!-- SETTINGS START -->
+
+
+<dict>
+<key>settings</key>
+<dict>
+	<!-- <key>background</key>                      <string>#3F4B4E</string> -->
+	<key>background</key>                      <string>#293134</string>
+	<!-- <key>foreground</key>                      <string>#81969A</string> -->
+	<key>foreground</key>                      <string>#E0E2E4</string>
+	<key>gutter</key>                          <string>#3A4649</string>
+		<key>gutterForeground</key>            <string>#777</string>
+	<key>caret</key>                           <string>#E0E2E4</string>
+	<key>invisibles</key>                      <string>#BFBFBF</string>
+	<!-- <key>lineHighlight</key>                   <string>#293134</string> -->
+	<key>lineHighlight</key>                   <string>#19212470</string>
+	<key>selection</key>                       <string>#404E5100</string>
+		<key>selectionBorder</key>             <string>#00FFDE90</string>
+		<!-- <key>selectionForeground</key>         <string>#FF0000</string> -->
+	<key>guide</key>                           <string>#FF000040</string>
+		<key>stackGuide</key>                  <string>#FF000040</string>
+		<key>activeGuide</key>                 <string>#FF000090</string>
+	<key>bracketsForeground</key>              <string>#00FF00</string>
+		<key>bracketsOptions</key>             <string>foreground underline</string>
+	<key>bracketContentsForeground</key>       <string>#00FF00</string>
+		<key>bracketContentsOptions</key>      <string>foreground underline</string>
+	<!-- <key>findHighlight</key>                   <string>#b9edf8</string> -->
+		<!-- <key>findHighlightForeground</key>     <string>#b9edf8</string> -->
+	<key>inactiveSelection</key>               <string>#263645</string>
+		<key>inactiveSelectionForeground</key> <string>#FF0000</string>
+	<key>tagsForeground</key>                  <string>#00FF00</string>
+		<key>tagsOptions</key>                 <string>foreground underline</string>
+	<!-- <key>minimapBorder</key>                   <string>#253B76</string> -->
+<!-- 
+ -->
+</dict>
+
+</dict><dict>
+
+	<key>name</key><string>Text base</string>
+	<key>scope</key><string>text</string>
+	<key>settings</key><dict>
+		<!-- <key>background</key><string>#293134</string> -->
+		<!-- <key>foreground</key><string>#E0E2E4</string> -->
+	</dict>
+</dict><dict>
+
+	<key>name</key><string>Source base</string>
+	<key>scope</key><string>source</string>
+	<key>settings</key><dict>
+		<!-- <key>background</key><string>#293134</string> -->
+		<!-- <key>foreground</key><string>#E0E2E4</string> -->
+	</dict>
+</dict><dict>
+
+	<key>name</key> <string>Comment</string>
+	<key>scope</key><string>comment</string>
+	<key>settings</key><dict>
+		<key>fontStyle</key> <string></string>
+		<key>foreground</key><string>#AEAEAE</string>
+	</dict>
+</dict><dict>
+
+	<key>name</key> <string>Constant</string>
+	<key>scope</key><string>constant</string>
+	<key>settings</key><dict>
+		<key>fontStyle</key> <string></string>
+		<key>foreground</key><string>#D8FA3C</string>
+	</dict>
+</dict><dict>
+
+	<key>name</key> <string>Entity</string>
+	<key>scope</key><string>entity</string>
+	<key>settings</key><dict>
+		<key>fontStyle</key> <string></string>
+		<key>foreground</key><string>#FF6400</string>
+	</dict>
+</dict><dict>
+
+	<key>name</key> <string>Entity Name Type Class</string>
+	<key>scope</key><string>entity.name.type.class</string>
+	<key>settings</key><dict>
+		<key>fontStyle</key> <string></string>
+		<key>foreground</key><string>#66CCCC</string>
+	</dict>
+</dict><dict>
+
+	<key>name</key> <string>Keyword</string>
+	<key>scope</key><string>keyword</string>
+	<key>settings</key><dict>
+		<key>fontStyle</key> <string></string>
+		<key>foreground</key><string>#FBDE2D</string>
+	</dict>
+</dict><dict>
+
+	<key>name</key> <string>Storage</string>
+	<key>scope</key><string>storage</string>
+	<key>settings</key><dict>
+		<key>fontStyle</key> <string></string>
+		<key>foreground</key><string>#FBDE2D</string>
+	</dict>
+</dict><dict>
+
+	<key>name</key> <string>Storage Type Class</string>
+	<key>scope</key><string>storage.type.class</string>
+	<key>settings</key><dict>
+		<key>fontStyle</key> <string></string>
+		<key>foreground</key><string>#FBDE2D</string>
+	</dict>
+</dict><dict>
+
+	<key>name</key> <string>String</string>
+	<key>scope</key><string>string, meta.verbatim</string>
+	<key>settings</key><dict>
+		<key>fontStyle</key> <string></string>
+		<key>foreground</key><string>#61CE3C</string>
+		<!-- <key>foreground</key><string>#CC66FF</string> -->
+		<!-- <key>foreground</key><string>#61CE3C</string> -->
+	</dict>
+</dict><dict>
+
+	<key>name</key> <string>String Single Quoted</string>
+	<key>scope</key><string>string.quoted.single</string>
+	<key>settings</key><dict>
+		<key>fontStyle</key> <string></string>
+		<key>foreground</key><string>#FF5F8F</string>
+	</dict>
+</dict><dict>
+
+	<key>name</key> <string>Support</string>
+	<key>scope</key><string>support</string>
+	<key>settings</key><dict>
+		<key>fontStyle</key> <string></string>
+		<key>foreground</key><string>#8DA6CE</string>
+	</dict>
+</dict><dict>
+
+	<key>name</key> <string>Variable</string>
+	<key>scope</key><string>variable</string>
+	<key>settings</key><dict>
+		<key>fontStyle</key> <string></string>
+	</dict>
+</dict><dict>
+
+	<key>name</key> <string>Function Parameter</string>
+	<key>scope</key><string>meta.function.parameters</string>
+	<key>settings</key><dict>
+		<key>fontStyle</key> <string></string>
+		<key>foreground</key><string>#66AA66</string>
+		<!-- <key>foreground</key><string>#FF5F8F</string> -->
+	</dict>
+</dict><dict>
+
+	<key>name</key> <string>Variable Parameter</string>
+	<key>scope</key><string>variable.parameter.function</string>
+	<key>settings</key><dict>
+		<key>fontStyle</key> <string></string>
+		<key>foreground</key><string>#BB77FF</string>
+		<!-- <key>foreground</key><string>#61CE3C</string> -->
+	</dict>
+</dict><dict>
+
+	<key>name</key> <string>Invalid – Deprecated</string>
+	<key>scope</key><string>invalid.deprecated</string>
+	<key>settings</key><dict>
+		<key>fontStyle</key> <string>italic</string>
+		<key>foreground</key><string>#AB2A1D</string>
+	</dict>
+</dict><dict>
+
+	<key>name</key> <string>Invalid – Illegal</string>
+	<key>scope</key><string>invalid.illegal</string>
+	<key>settings</key><dict>
+		<key>background</key><string>#9D1E15</string>
+		<key>foreground</key><string>#F8F8F8</string>
+	</dict>
+</dict><dict>
+
+	<key>name</key> <string>Superclass</string>
+	<key>scope</key><string>entity.other.inherited-class</string>
+	<key>settings</key><dict>
+		<key>fontStyle</key> <string>italic</string>
+		<key>foreground</key><string>#FF6400</string>
+	</dict>
+</dict><dict>
+
+	<key>name</key> <string>String interpolation</string>
+	<key>scope</key><string>string constant.other.placeholder</string>
+	<key>settings</key><dict>
+		<key>fontStyle</key> <string></string>
+		<key>foreground</key><string>#FF6400</string>
+	</dict>
+</dict><dict>
+
+	<key>name</key> <string>meta.function-call.py</string>
+	<key>scope</key><string>meta.function-call.py</string>
+	<key>settings</key><dict>
+		<key>fontStyle</key> <string></string>
+		<key>foreground</key><string>#BECDE6</string>
+	</dict>
+</dict><dict>
+
+	<key>name</key> <string>meta.function-call.arguments</string>
+	<key>scope</key><string>meta.function-call.arguments</string>
+	<key>settings</key><dict>
+		<key>fontStyle</key> <string>italic</string>
+		<!-- <key>foreground</key><string>#FF0000</string> -->
+	</dict>
+</dict><dict>
+
+	<key>name</key> <string>meta.tag</string>
+	<key>scope</key><string>meta.tag, meta.tag entity</string>
+	<key>settings</key><dict>
+		<key>fontStyle</key> <string></string>
+		<key>foreground</key><string>#7F90AA</string>
+	</dict>
+</dict><dict>
+
+	<key>name</key> <string>entity.name.section</string>
+	<key>scope</key><string>entity.name.section</string>
+	<key>settings</key><dict>
+		<key>fontStyle</key> <string></string>
+		<key>foreground</key><string>#FFFFFF</string>
+	</dict>
+</dict><dict>
+
+	<key>name</key> <string>OCaml variant</string>
+	<key>scope</key><string>keyword.type.variant</string>
+	<key>settings</key><dict>
+		<key>foreground</key><string>#D5E0F3</string>
+	</dict>
+</dict><dict>
+
+	<key>name</key> <string>OCaml operator</string>
+	<key>scope</key><string>source.ocaml keyword.operator.symbol</string>
+	<key>settings</key><dict>
+		<key>foreground</key><string>#F8F8F8</string>
+	</dict>
+</dict><dict>
+
+	<key>name</key> <string>OCaml infix operator</string>
+	<key>scope</key><string>source.ocaml keyword.operator.symbol.infix</string>
+	<key>settings</key><dict>
+		<key>fontStyle</key> <string></string>
+		<key>foreground</key><string>#8DA6CE</string>
+	</dict>
+</dict><dict>
+
+	<key>name</key> <string>OCaml prefix operator</string>
+	<key>scope</key><string>source.ocaml keyword.operator.symbol.prefix</string>
+	<key>settings</key><dict>
+		<key>fontStyle</key> <string></string>
+		<key>foreground</key><string>#8DA6CE</string>
+	</dict>
+</dict><dict>
+
+	<key>name</key> <string>OCaml f-p infix operator</string>
+	<key>scope</key><string>source.ocaml keyword.operator.symbol.infix.floating-point</string>
+	<key>settings</key><dict>
+		<key>fontStyle</key> <string>underline</string>
+	</dict>
+</dict><dict>
+
+	<key>name</key> <string>OCaml f-p prefix operator</string>
+	<key>scope</key><string>source.ocaml keyword.operator.symbol.prefix.floating-point</string>
+	<key>settings</key><dict>
+		<key>fontStyle</key> <string>underline</string>
+	</dict>
+</dict><dict>
+
+	<key>name</key> <string>OCaml f-p constant</string>
+	<key>scope</key><string>source.ocaml constant.numeric.floating-point</string>
+	<key>settings</key><dict>
+		<key>fontStyle</key> <string>underline</string>
+	</dict>
+</dict><dict>
+
+	<key>name</key> <string>LaTeX environment</string>
+	<key>scope</key><string>text.tex.latex meta.function.environment</string>
+	<key>settings</key><dict>
+		<key>background</key><string>#FFFFFF08</string>
+	</dict>
+</dict><dict>
+
+	<key>name</key> <string>LaTeX environment (nested)</string>
+	<key>scope</key><string>text.tex.latex meta.function.environment meta.function.environment</string>
+	<key>settings</key><dict>
+		<key>background</key><string>#7A96FA08</string>
+	</dict>
+</dict><dict>
+
+	<key>name</key> <string>Latex support</string>
+	<key>scope</key><string>text.tex.latex support.function</string>
+	<key>settings</key><dict>
+		<key>fontStyle</key> <string></string>
+		<key>foreground</key><string>#FBDE2D</string>
+	</dict>
+</dict><dict>
+
+	<key>name</key> <string>PList unquoted string</string>
+	<key>scope</key><string>source.plist string.unquoted, source.plist keyword.operator</string>
+	<key>settings</key><dict>
+		<key>foreground</key><string>#FFFFFF</string>
+	</dict>
+</dict>
+
+
+<!-- INI Scheme -->
+<!-- <dict>
+	<key>name</key> <string>meta.tag</string>
+	<key>scope</key><string>meta.tag.section.ini</string>
+	<key>settings</key><dict>
+		<key>fontStyle</key> <string></string>
+		<key>foreground</key><string>#BB77FF</string>
+	</dict>
+</dict> -->
+<!-- INI Scheme - end -->
+
+
+<!-- LESS Scheme -->
+<dict>
+	<key>name</key> <string>css.id</string>
+	<key>scope</key><string>meta.selector.css entity.other.attribute-name.id</string>
+	<key>settings</key><dict>
+		<key>foreground</key><string>#E5D56D</string>
+	</dict>
+</dict><dict>
+
+	<key>name</key><string>css.class</string>
+	<key>scope</key><string>entity.other.attribute-name.class</string>
+	<key>settings</key><dict>
+		<key>foreground</key><string>#A0C25F</string>
+	</dict>
+</dict><dict>
+
+	<key>name</key> <string>less.mixin</string>
+	<key>scope</key><string>entity.other.less.mixin</string>
+	<key>settings</key><dict>
+		<key>foreground</key><string>#98E124</string>
+	</dict>
+</dict><dict>
+
+	<key>name</key> <string>css.element</string>
+	<key>scope</key><string>keyword.control.html.elements</string>
+	<key>settings</key><dict>
+		<key>foreground</key><string>#DA4632</string>
+	</dict>
+</dict><dict>
+
+	<key>name</key> <string>css.string</string>
+	<key>scope</key><string>meta.attribute-selector.css string</string>
+	<key>settings</key><dict>
+		<key>foreground</key><string>#3d3</string>
+	</dict>
+</dict><dict>
+
+	<key>name</key> <string>less.variable.declaration</string>
+	<key>scope</key><string>variable.declaration.less</string>
+	<key>settings</key><dict>
+		<key>foreground</key><string>#FF950A</string>
+	</dict>
+</dict>
+<!-- LESS Scheme - end -->
+
+
+<!-- Dictionary Scheme -->
+<!-- 
+	meta.structure.array.json, meta.structure.dictionary.json, string.quoted.double.json
+	meta.structure.array.json, meta.structure.dictionary.json, meta.structure.dictionary.value.json, string.quoted.double.json
+ -->
+<dict>
+	<key>name</key> <string>Dictionary Key</string>
+	<key>scope</key>
+	<!-- <string>meta.structure.dictionary string.quoted -meta.structure.dictionary.value</string> -->
+	<string>meta.structure.dictionary.key string.quoted</string>
+	<key>settings</key><dict>
+		<key>foreground</key><string>#499</string>
+		<!-- <key>background</key><string>#F2777A</string> -->
+	</dict>
+</dict>
+
+<dict>
+	<key>name</key> <string>Dictionary Key</string>
+	<key>scope</key>
+	<string>meta.structure.dictionary.value meta.structure.dictionary.key string.quoted</string>
+	<key>settings</key><dict>
+		<key>foreground</key><string>#377</string>
+	</dict>
+</dict>
+
+<dict>
+
+	<key>name</key> <string>Dictionary Value Numeric</string>
+	<key>scope</key><string>meta.structure.dictionary.value constant.numeric</string>
+	<key>settings</key><dict>
+		<key>foreground</key><string>#F55</string>
+		<!-- <key>background</key><string>#66CCCC</string> -->
+	</dict>
+</dict>
+<!-- Dictionary Scheme - end -->
+
+
+<!-- QuickCal Scheme -->
+<dict>
+	<key>name</key> <string>Calendar Selected Day</string>
+	<key>scope</key><string>selected_day</string>
+	<key>settings</key><dict>
+		<key>foreground</key><string>#2D2D2D</string>
+		<key>background</key><string>#F2777A</string>
+	</dict>
+</dict><dict>
+
+	<key>name</key> <string>Calendar Holiday</string>
+	<key>scope</key><string>holiday</string>
+	<key>settings</key><dict>
+		<key>foreground</key><string>#2D2D2D</string>
+		<key>background</key><string>#66CCCC</string>
+	</dict>
+</dict>
+<!-- QuickCal Scheme - end -->
+
+
+
+<!-- SETTINGS END -->
+</array>
+<!-- uuid -->
+<key>uuid</key><string>A2C6BAA7-90D0-4147-BBF5-96B0CD92D901</string>
+<!-- INNER END -->
+</dict></plist>
